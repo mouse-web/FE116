@@ -2,9 +2,8 @@
     margin: 0;
     padding: 0;
 }
- 
 .bg-images{
-    background-image: url(/hw_1/images/bg.jpg);
+    background-image: url(images/bg.jpg);
     height: auto;
 
     width: 100%;
