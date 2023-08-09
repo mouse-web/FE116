@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    <form action="https://google.com" name="contact1">
+        <label for="full-name"><span>Повне ім'я</span>
+          <input type="text" name="full-name">  
+        </label>
+        <label for="email"> <span> Email</span>
+          <input type="email" required name="email">
+        </label>
+        <label for=""><span>Пароль</span>
+          <input type="password" name="password">
+        </label>
+        <label for=""><span>Пароль ще раз</span>
+          <input type="password" name="password-two">
+        </label>
+        <label for="sex"><span>Стать</span>         
+          <input type="radio" name="sex"><span>Чоловіча</span>         
+          <input type="radio" name="sex"><span>Жіноча</span>
+        </label>
+        <label for=""><span>Вік</span>
+          <input type="text" name="age">
+        </label>
+        <label for=""><span>Курс</span>
+          <select name="course" id="">
+            <option value="" ></option>
+            <option value="">Fron-End</option>
+            <option value="">Payton</option>
+            <option value="">Motion design</option>
+            <option value=""> HR manager</option>
+          </select>
+        </label>
+        <label for=""><span>Повна адреса</span>
+          <textarea name="textarea" ></textarea>
+        </label>
+        <label for="checkbox"><input type="checkbox" value="checkbox"><span class="checkbox">Я погоджуюсь з обробкою данних</span>
+        </label>
+        <label for="">
+            <button type="reset">Очистити форму</button>
+            <button type="submit">Зареєструватися</button>
+        </label>
+    </form>    
+</body>
+</html>
