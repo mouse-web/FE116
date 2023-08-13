@@ -1,6 +1,8 @@
-.container {
-  max-width: 970px;
+section {
   width: 100%;
+}
+section .section-content {
+  max-width: 970px;
   margin: 0 auto;
 }
 
@@ -106,7 +108,6 @@ header nav ul li a {
 
 .skills {
   display: flex;
-  width: 970px;
   height: 564px;
   padding: 0px 22px;
   flex-direction: column;
@@ -138,7 +139,6 @@ header nav ul li a {
 }
 .skills .wrapper {
   display: flex;
-  width: 970px;
   height: 230px;
   justify-content: center;
   align-items: center;
@@ -168,7 +168,10 @@ header nav ul li a {
 }
 
 .portfolio {
-  height: 630px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   background: #F6F6F6;
 }
 .portfolio h2 {
@@ -183,6 +186,9 @@ header nav ul li a {
   margin-bottom: 50px;
 }
 
+.p-portfolio {
+  background: #F6F6F6;
+}
 .p-portfolio p {
   margin-top: 40px;
   color: #070707;
@@ -196,14 +202,13 @@ header nav ul li a {
 }
 
 .rebook {
-  margin-top: 160px;
-  width: 970px;
-  height: 604px;
+  padding-top: 160px;
   flex-direction: column;
   align-items: center;
   gap: 40px;
   flex-shrink: 0;
   display: flex;
+  background: #F6F6F6;
 }
 .rebook .p-rebook p {
   text-align: center;
@@ -217,12 +222,11 @@ header nav ul li a {
 }
 
 .braun {
-  margin-top: 70px;
-  width: 970px;
-  height: 604px;
+  padding-top: 70px;
   flex-direction: column;
   align-items: center;
   gap: 40px;
+  background: #F6F6F6;
   flex-shrink: 0;
   display: flex;
 }
@@ -234,6 +238,7 @@ header nav ul li a {
   font-weight: 400;
   line-height: normal;
   text-decoration-line: underline;
+  padding-bottom: 70px;
 }
 
 footer {
@@ -244,6 +249,8 @@ footer {
   gap: 60px;
   flex-shrink: 0;
   display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 footer h2 {
   color: #070707;
@@ -293,4 +300,13 @@ footer nav ul {
   align-items: flex-start;
   gap: 50px;
   display: flex;
+}
+footer h4 {
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #828282;
 }/*# sourceMappingURL=style.css.map */
