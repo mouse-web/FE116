@@ -8,7 +8,22 @@
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
+
+
 }
+
+main {
+    img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: 150px;
+        z-index: -2;
+
+
+    }
+}
+
 
 header {
     display: flex;
@@ -103,7 +118,7 @@ main {
                 li {
                     color: #000;
                     font-family: Francois One;
-                    font-size: 36px;
+                    font-size: 31px;
                     font-style: normal;
                     font-weight: 400;
                     line-height: 48px;
@@ -118,7 +133,7 @@ main {
         .main-section {
 
             .section-one {
-
+                width: 785px;
 
                 .s-one-title {
                     display: flex;
