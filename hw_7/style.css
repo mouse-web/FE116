@@ -79,7 +79,7 @@ section .text h4 {
   line-height: normal;
   color: #E0E0E0;
 }
-section .items {
+section:nth-child(1) .items {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 370px 370px 370px;
