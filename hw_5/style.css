@@ -15,7 +15,7 @@ header nav {
 }
 header nav ul {
   display: inline-block;
-  padding: auto 198px;
+  padding: 0 198px;
 }
 header nav ul li {
   display: inline-block;
@@ -57,14 +57,4 @@ button:hover {
   color: white;
 }
 
-.worker-1 .worker-photo {
-  background-image: url(....);
-}
-.worker-1 .worker-photo .worker-overlay {
-  background-color: red;
-  opacity: 0;
-}
-
-.workers .worker-item:hover .worker-overlay {
-  opacity: 1;
-}/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
