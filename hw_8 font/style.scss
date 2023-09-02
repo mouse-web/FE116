@@ -14,9 +14,7 @@
 
 main {
     img {
-        position: absolute;
-        top: 0;
-        right: 0;
+        position: sticky;
         margin-top: 150px;
         z-index: -2;
 
@@ -79,6 +77,11 @@ header {
 
         }
     }
+    
+}
+.logo{
+    position: fixed;
+    top: 100px;
 }
 
 main {
@@ -90,6 +93,8 @@ main {
     }
 
     .sidebar {
+        position: sticky;
+        top: 50px;
         grid-area: sidebar;
     }
 
