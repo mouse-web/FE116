@@ -1,37 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Tourney&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Farro:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Farro:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Tourney&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Farro:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Francois+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Farro:wght@300&display=swap");
 
 .container {
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
-
-
 }
 
 main {
     img {
-        position: sticky;
+        position: fixed;
         margin-top: 150px;
+        right: 0;
         z-index: -2;
-
-
     }
 }
 
+.header-section-two {
+    width: 100%;
+}
 
 header {
+    position: sticky;
+    top: 13px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 54px;
-    padding: 13px 0 13px 0;
-
-
-
+    padding-bottom: 13px;
 
     .header-section-two {
         display: flex;
@@ -60,7 +59,7 @@ header {
             letter-spacing: 0.66px;
 
             &::after {
-                content: '/';
+                content: "/";
                 padding: 10px;
             }
         }
@@ -73,14 +72,12 @@ header {
             font-weight: 400;
             line-height: normal;
             letter-spacing: 0.66px;
-
-
         }
     }
-    
 }
-.logo{
-    position: fixed;
+
+.logo {
+    position: sticky;
     top: 100px;
 }
 
@@ -93,17 +90,17 @@ main {
     }
 
     .sidebar {
-        position: sticky;
-        top: 50px;
         grid-area: sidebar;
     }
 
-    .maun-section {
+    .main-section {
         grid-area: main;
     }
 
     .wrapper {
         .sidebar {
+            position: fixed;
+            top: 50px;
             display: flex;
             padding-bottom: 0px;
             align-items: flex-start;
@@ -121,22 +118,23 @@ main {
                 gap: 70px;
 
                 li {
-                    color: #000;
-                    font-family: Francois One;
-                    font-size: 31px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: 48px;
-                    letter-spacing: 1.44px;
-                    text-transform: uppercase;
-                    border-bottom: 1px solid #000;
-
+                    a {
+                        text-decoration: none;
+                        color: #000;
+                        font-family: "Francois One";
+                        font-size: 31px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 48px;
+                        letter-spacing: 1.44px;
+                        text-transform: uppercase;
+                        border-bottom: 1px solid #000;
+                    }
                 }
             }
         }
 
         .main-section {
-
             .section-one {
                 width: 785px;
 
@@ -145,15 +143,12 @@ main {
                     margin-top: 111px;
                     margin-bottom: 40px;
 
-
                     .border-one-title {
                         width: 100px;
                         height: 8px;
                         border: 1px solid #000;
                         background: #000;
                         position: absolute;
-
-
                     }
 
                     h2 {
@@ -172,7 +167,7 @@ main {
                     h5 {
                         padding-top: 20px;
                         color: #000;
-                        font-feature-settings: 'sups' on;
+                        font-feature-settings: "sups" on;
                         font-family: Farro;
                         font-size: 15px;
                         font-style: normal;
@@ -191,7 +186,6 @@ main {
                     font-style: normal;
                     font-weight: 400;
                     line-height: 48px;
-
                 }
 
                 span {
@@ -222,7 +216,7 @@ main {
                 h5 {
                     padding-top: 20px;
                     color: #000;
-                    font-feature-settings: 'sups' on;
+                    font-feature-settings: "sups" on;
                     font-family: Farro;
                     font-size: 15px;
                     font-style: normal;
@@ -237,10 +231,7 @@ main {
                     border: 1px solid #000;
                     background: #000;
                     position: absolute;
-
                 }
-
-
             }
         }
 
@@ -281,7 +272,7 @@ main {
                 h5 {
                     padding-top: 20px;
                     color: #000;
-                    font-feature-settings: 'sups' on;
+                    font-feature-settings: "sups" on;
                     font-family: Farro;
                     font-size: 15px;
                     font-style: normal;
@@ -296,10 +287,7 @@ main {
                     border: 1px solid #000;
                     background: #000;
                     position: absolute;
-
                 }
-
-
             }
         }
 
@@ -326,7 +314,6 @@ main {
                 font-weight: 400;
                 line-height: 48px;
                 margin-top: 40px;
-
             }
 
             p:nth-child(3) {
@@ -379,7 +366,6 @@ main {
                 font-weight: 400;
                 line-height: 48px;
                 margin-top: 40px;
-                ;
 
                 span {
                     font-weight: 700;
@@ -399,7 +385,6 @@ main {
                     font-weight: 700;
                 }
             }
-
         }
 
         .section-four {
@@ -424,7 +409,7 @@ main {
                 h5 {
                     padding-top: 20px;
                     color: #000;
-                    font-feature-settings: 'sups' on;
+                    font-feature-settings: "sups" on;
                     font-family: Farro;
                     font-size: 15px;
                     font-style: normal;
@@ -439,10 +424,7 @@ main {
                     border: 1px solid #000;
                     background: #000;
                     position: absolute;
-
                 }
-
-
             }
         }
 
@@ -475,6 +457,5 @@ main {
                 }
             }
         }
-
     }
 }
